@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Student Information</title>
+</head>
+<body>
+    <h1><img src="https://cdn.hswstatic.com/gif/gears-1.jpg" alt = "gear" width="500"></h1>
+    <h2>Student Information Form</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" name="Age" required><br><br>
+
+        <label for="year/section">Year/Section:</label>
+        <input type="text" id="year/section" name="year/section" required><br><br>
+
+        
+
+        
+        <fieldset>
+            <legend>Type of Engineering</legend>
+            <input type = "radio" name = "Type  of Engineering" id ="Computer-Engineering" />
+            <label for = "Computer-Engineering">Computer Engineering</label> 
+            <input type = "radio" name = "Type  of Engineering" id ="Civil-Engineering" />
+            <label for = "Civil-Engineering">Civil-Engineering Engineering</label> 
+            <input type = "radio" name = "Type  of Engineering" id ="Electrical-Engineering" />
+            <label for = "Electrical-Engineering">Electrical Engineering</label> 
+            <input type = "radio" name = "Type  of Engineering" id ="Mechanical-Engineering" />
+            <label for = "Mechanical-Engineering">Mechanical Engineering</label> 
+            <input type = "radio" name = "Type  of Engineering" id ="Electronic Communications Engineering" />
+            <label for = "Electronic Communications Engineering">Electronic Communications Engineering</label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
